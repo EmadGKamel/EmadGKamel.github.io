@@ -50,7 +50,42 @@ i {
   width: 100%;
   margin-bottom: 4vh
 }
-
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google-plus {
+    background: #d10;
+    color: white; /* #eb0 */
+}
+.fa-github {
+    background: #323232;
+    color: white;
+}
+.fa-whatsapp {
+    background: #34af23;
+    color: white;
+}
+.fa-envelope-o {
+  background: #c71610;
+  color: white;
+}
+/*
 .fa {
   display: inline-block;
   background: #037;
@@ -66,24 +101,4 @@ i {
   box-shadow: 0 -50px 0 0 rgba(0, 0, 0, 0) inset;
   transition: all 0.4s;
 }
-
-.fa:hover {
-  color: #fff;
-  box-shadow: 0 -50px 0 0 rgba(0, 0, 0, 0.5) inset
-}
-
-.fa:nth-of-type(2) {
-  background: #08c
-}
-
-.fa:nth-of-type(3) {
-  background: #d10
-}
-
-.fa:nth-of-type(4) {
-  background: #444
-}
-
-.fa:nth-of-type(5) {
-  background: #eb0
-}
+*/
