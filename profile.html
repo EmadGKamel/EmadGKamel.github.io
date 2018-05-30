@@ -1,168 +1,59 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel='icon' type='image/jpg' href='images/favicon.ico' />
+
+    <script src="js/profile.js"></script>
     <link rel="stylesheet" href="css/profile.css">
-    <title>Emad G.Kamel</title>
+    <title>My profile</title>
   </head>
   <body>
-    <!-- <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="home.html">Home</a>
-      <a class="navbar active" href="#">Profile</a>
-      <a class="navbar " href="#">Projects</a>
-      <div class="icon-bar">
-        <a href="https://www.facebook.com/EmadG.Kamel235" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="https://github.com/EmadGKamel" class="github"><i class="fa fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/emad-kamel-5709a3147/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-      </div>
-    </nav> -->
     <nav>
-      <a href="#" class="active">Home</a>
-      <a href="#">Profile</a>
-      <a href="timeline.html">Porfolio</a>
-      <a href="#">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="profile.html" class="active">Profile</a>
+      <a href="#">Porfolio</a>
+      <a href="contact.html">Contact</a>
     </nav>
-    <br>
-<!--
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-lg-3">
-          <div class="card" style="padding: 3px;">
-            <img class="card-img-top" src="1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Emad Gamal Kamel</h4>
-              <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal card-text"></i>Network Engineer</p>
-              <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal card-text"></i>Cairo, Egypt</p>
-              <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal card-text"></i>EmadG.Kamel@Gmail.com</p>
-              <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal card-text"></i>+201119511035</p>
-              <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal card-text"></i>+201119122441</p>
-              <hr>
-              <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-              <p>Arabic</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">Native</div>
-              </div>
-              <p>English (IELTS)</p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:61%">5.5</div>
-              </div>
-            </div>
-          </div>
-        </div>
 
+    <button class="tablink" onclick="openTab('tab-1', this, '#F25F5C')" id="defaultOpen">Programming</button>
+    <button class="tablink" onclick="openTab('tab-2', this, '#5CC96C')">Networking</button>
+    <button class="tablink" onclick="openTab('tab-3', this, '#51A3C6')">Systems</button>
+    <button class="tablink" onclick="openTab('tab-4', this, '#787AD3')">Hardware</button>
 
-        <div class="col-12 col-lg-9">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="Experience-tab" data-toggle="tab" href="#Experience" role="tab" aria-controls="Experience" aria-selected="true">Work Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="Skills-tab" data-toggle="tab" href="#Skills" role="tab" aria-controls="Skills" aria-selected="false">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " id="Education-tab" data-toggle="tab" href="#Education" role="tab" aria-controls="Education" aria-selected="false">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="Certificates-tab" data-toggle="tab" href="#Certificates" role="tab" aria-controls="Certificates" aria-selected="false">Certificates</a>
-            </li>
-          </ul>
-
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade" id="Experience" role="tabpanel" aria-labelledby="Experience-tab">
-
-            </div>
-            <div class="tab-pane fade" id="Skills" role="tabpanel" aria-labelledby="Skills-tab">
-
-            </div>
-            <div class="tab-pane fade show active" id="Education" role="tabpanel" aria-labelledby="Education-tab">
-
-            </div>
-            <div class="tab-pane fade" id="Certificates" role="tabpanel" aria-labelledby="Certificates-tab">
-              <div class="media">
-                <img class="mr-3" src="ccna-logo.jpg" width="96" height="96">
-                <div class="media-body">
-                  <h5 class="mt-0">Cisco Certified Network Associate <a href="#"><b>Routing & Switching</b></a></h5>
-                </div>
-              </div>
-              <br>
-              <div class="media">
-                <a href="#"><img class="mr-3" src="ccna_cyber_logo.png" width="96" height="96"></a>
-                <div class="media-body">
-                  <h5 class="mt-0">Cisco Certified Network Associate <a href="#"><b>Cyber Ops</b></a></h5>
-                </div>
-              </div>
-              <br>
-              <div class="media">
-                <a href="#"><img class="mr-3" src="rhcsa_logo.jpg" width="96" height="96"></a>
-                <div class="media-body">
-                  <h5 class="mt-0">Red Hat Certified <a href="#"><b>System Administrator</b></a></h5>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
+    <div id="tab-1" class="tabContent">
+      <h2>Python</h2>
+      <p>Networking & Security Scripting.</p>
+      <p>Desktop & WEB Development.</p>
+      <p>Embedded systems Applications.</p>
+      <h2>C Language</h2>
+      <p>Embedded C</p>
+      <h2>WEB Technologies</h2>
+      <p>HTML</p>   <p>CSS</p>  <p>Bootstrap</p>  <p>JavaScript</p>  <p>JQuery</p>  <p>Django</p>
     </div>
 
--->
+    <div id="tab-2" class="tabContent">
+      <h2>Networking</h2>
+      <p> <b>RHCSA (Certified).</b> #180-025-983 </p>
+      <p>Solid background with Debian.</p>
+    </div>
 
+    <div id="tab-3" class="tabContent">
+      <h2>System Adminstraion</h2>
+      <p> <b>CCNA RnS (Certified).</b> #13150711</p>
+      <p> <b>CCNA CyberOps (Certified).</b> #13150711</p>
+    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="index.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div id="tab-4" class="tabContent">
+      <h2>Embedded Systems Developer & Trainer</h2>
+
+      <p>Designing, implementing & maintaining Embedded Systems projects.</p>
+      <p>Trainer in Programming, Embedded Systems & IoT fields.</p>
+      <p>Experience with EDA Tools (Electronic Design Automation).</p>
+
+    </div>
+
   </body>
 </html>
-
-
-
-
-
-
-
-<!-- code to add
-
-
-<br>
-<object width="100%" height="800" data="RHCSA_cert.pdf"></object>
-<br>
-<object width="100%" height="800" data="CCNA_cert.pdf"></object>
-<br>
-
-////////////////////////////////////
-
-//////////////////////////////////////
-
-////////////////////////////////////////////
-
-<div id="myNav" class="overlay">
-
-
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-
-  <div class="overlay-content">
-
-  </div>
-
-</div>
-<span onclick="openNav()">open</span>
-
-
-
-
- -->

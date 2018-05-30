@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)),
+    rgba(0,0,0,0.55) url('../images/sun.jpg') no-repeat center;
+    background-size: cover;
+
+}
+body {
+  text-align: center;
+  color: #fff;
+}
+nav {
+  text-align: center;
+  margin: 20px;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+}
+
+nav a {
+  display: inline-block;
+  width: 20%;
+  font-size: 16px;
+  padding: 5px 0;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+    border: 2px solid white ;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+
+}
+.active {
+    border: 2px solid white ;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+}
+/***********************************************************/
+h1 {
+  width: 100%;
+  margin: 10vh 0 3vh 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 3em
+}
+
+i {
+  display: block;
+  width: 100%;
+  margin-bottom: 4vh
+}
+
+.fa {
+  display: inline-block;
+  background: #037;
+  color: #ddd;
+  text-decoration: none;
+  padding-top: 12px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20%;
+  box-sizing: border-box;
+  margin-left: 15px;
+  box-shadow: 0 -50px 0 0 rgba(0, 0, 0, 0) inset;
+  transition: all 0.4s;
+}
+
+.fa:hover {
+  color: #fff;
+  box-shadow: 0 -50px 0 0 rgba(0, 0, 0, 0.5) inset
+}
+
+.fa:nth-of-type(2) {
+  background: #08c
+}
+
+.fa:nth-of-type(3) {
+  background: #d10
+}
+
+.fa:nth-of-type(4) {
+  background: #444
+}
+
+.fa:nth-of-type(5) {
+  background: #eb0
+}
